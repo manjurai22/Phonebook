@@ -1,0 +1,43 @@
+form{
+    background-color:#f4e8e8;
+    }
+h1{
+    color:blue;
+    }    
+body{
+    background-color:#f2f1f9;
+    }
+form{
+    background-color:rgb(228, 234, 234);
+    max-width:500px;
+    margin:auto;
+    padding:30px;
+    border-radius:10px;        
+    }
+label,
+    p{ margin-bottom:8px;
+    font-weight:bold;
+    }
+
+    input,
+    select,
+    button{
+        width:100%;
+        padding:12px;
+        margin-bottom:15px;
+        border:1px solid #ccc;
+        font-size:15px;
+        }
+    input[type="radio"]{
+        width:auto;
+        margin:8px;
+        }
+    button{
+        background-color:green;
+        color:white;
+        border:none;
+        cursor:pointer;
+        }
+    button:hover{
+        background-color:rgb(91, 234, 107);
+        }

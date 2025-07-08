@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link href="indexstyle.css" rel="stylesheet">
+</head>
+<body>
+    <h1 style="text-align: center;">PHONEBOOK</h1>
+   
+    <form action="index.php" method="post">
+        <label for="firstName">First Name:</label>
+        <br/>
+        <input type="text" placeholder="Enter your first name" id="firstName" name="firstName" />
+        <br/>
+        <label for="lastName">Last Name:</label>
+        <br/>
+        <input type="text" placeholder="Enter your last name" id="lastName" name="lastName"/>
+        <br/>
+        <label for="address">Address:</label>
+        <br/>
+        <input type="text" placeholder="Enter your address" id="address" name="address"/>
+        <br/>
+        <label for="phonenum">Phone Number:</label>
+        <br/>
+        <input type="text" placeholder="Enter your phone number" id="phonenum" name="phonenum"/>
+        <br />
+        <label for="Email">Email id:</label>
+        <br/>
+        <input type="email" placeholder="Enter your emailid" id="Email" name="Email"/>
+        <br/>
+        
+        <p> Select your gender:</p>
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="male">Male</label>
+        <br/>
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="female">Female</label>
+        <br/>
+        <input type="radio" name="gender" id="other" value="other" />
+        <label for="other">Other</label>
+        <br/>
+        <p> Select your country:</p>
+        <select name="country" id="country" >
+            <option value="select your country">Select your country</option>
+            <option value="nepal">Nepal</option>
+            <option value="india">India</option>
+            <option value="china">China</option>
+            <option value="USA">USA</option>
+        </select>
+        
+
+        <button type="submit"> Register</button>
+    </form>
+</body>
+</html>
