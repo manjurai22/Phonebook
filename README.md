@@ -1,10 +1,10 @@
-# 📞 Phonebook Web Application
+# Phonebook Web Application
 
 A simple **Phonebook** built using **HTML**, **CSS**, and **PHP**, with **XAMPP** as the local server and **MySQL** database to store user entries.
 
 ---
 
-## 🌐 Overview
+## Overview
 
 Lets users register their contact details including:
 
@@ -19,7 +19,7 @@ Upon form submission, the data is securely inserted into a MySQL database using 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
